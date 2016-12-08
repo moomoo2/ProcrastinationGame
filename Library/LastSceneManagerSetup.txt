@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/background stufff.unity
+  isLoaded: 1
+  isActive: 1
