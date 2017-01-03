@@ -87,7 +87,7 @@
 'Assets/Scripts/HealthScript.cs'
 'Assets/Scripts/MoveScript.cs'
 'Assets/Scripts/PlayerScript.cs'
-'Assets/Scripts/RendererExtensions.cs.cs'
+'Assets/Scripts/RENDEREREXTENSIONS.cs'
 'Assets/Scripts/ScrollingScript.cs'
 'Assets/Scripts/ShotScript.cs'
 'Assets/Scripts/WeaponScript.cs'
