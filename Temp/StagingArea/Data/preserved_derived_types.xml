@@ -1,0 +1,11 @@
+<linker>
+<assembly fullname="Assembly-CSharp">
+<type fullname="EnemyScript" preserve="all"/>
+<type fullname="HealthScript" preserve="all"/>
+<type fullname="MoveScript" preserve="all"/>
+<type fullname="PlayerScript" preserve="all"/>
+<type fullname="ScrollingScript" preserve="all"/>
+<type fullname="ShotScript" preserve="all"/>
+<type fullname="WeaponScript" preserve="all"/>
+</assembly>
+</linker>
