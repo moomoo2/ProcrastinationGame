@@ -30,8 +30,8 @@ Module.expectedDataFileDownloads++;
                               Module['locateFile'](REMOTE_PACKAGE_BASE) :
                               ((Module['filePackagePrefixURL'] || '') + REMOTE_PACKAGE_BASE);
   
-      var REMOTE_PACKAGE_SIZE = 16448176;
-      var PACKAGE_UUID = '05a3d4a4-78cd-4db1-9f7e-d3663faa4467';
+      var REMOTE_PACKAGE_SIZE = 16460656;
+      var PACKAGE_UUID = '359d4067-7c90-4bbf-a31c-635f01f74f80';
     
     function fetchRemotePackage(packageName, packageSize, callback, errback) {
       var xhr = new XMLHttpRequest();
@@ -137,14 +137,14 @@ Module['FS_createPath']('/Managed/mono', '2.0', true, true);
 
       new DataRequest(0, 20660, 0, 0).open('GET', '/globalgamemanagers');
     new DataRequest(20660, 32212, 0, 0).open('GET', '/globalgamemanagers.assets');
-    new DataRequest(32212, 58908, 0, 0).open('GET', '/level0');
-    new DataRequest(58908, 58927, 0, 0).open('GET', '/methods_pointedto_by_uievents.xml');
-    new DataRequest(58927, 59323, 0, 0).open('GET', '/preserved_derived_types.xml');
-    new DataRequest(59323, 13456211, 0, 0).open('GET', '/sharedassets0.assets');
-    new DataRequest(13456211, 14862451, 0, 0).open('GET', '/Il2CppData/Metadata/global-metadata.dat');
-    new DataRequest(14862451, 16359823, 0, 0).open('GET', '/Resources/unity_default_resources');
-    new DataRequest(16359823, 16420551, 0, 0).open('GET', '/Resources/unity_builtin_extra');
-    new DataRequest(16420551, 16448176, 0, 0).open('GET', '/Managed/mono/2.0/machine.config');
+    new DataRequest(32212, 71388, 0, 0).open('GET', '/level0');
+    new DataRequest(71388, 71407, 0, 0).open('GET', '/methods_pointedto_by_uievents.xml');
+    new DataRequest(71407, 71803, 0, 0).open('GET', '/preserved_derived_types.xml');
+    new DataRequest(71803, 13468691, 0, 0).open('GET', '/sharedassets0.assets');
+    new DataRequest(13468691, 14874931, 0, 0).open('GET', '/Il2CppData/Metadata/global-metadata.dat');
+    new DataRequest(14874931, 16372303, 0, 0).open('GET', '/Resources/unity_default_resources');
+    new DataRequest(16372303, 16433031, 0, 0).open('GET', '/Resources/unity_builtin_extra');
+    new DataRequest(16433031, 16460656, 0, 0).open('GET', '/Managed/mono/2.0/machine.config');
 
     function processPackageData(arrayBuffer) {
       Module.finishedDataFileDownloads++;
